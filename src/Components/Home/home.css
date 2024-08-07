@@ -46,7 +46,7 @@ ul li:hover::after {
 }
 .list-main {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   gap: 8px;
 }
 

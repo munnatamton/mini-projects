@@ -30,6 +30,18 @@ const Home = () => {
         <li>
           <Link className="link" to={"/theme-change"}>Light/Dark Mode</Link>
         </li>
+        <li>
+          <Link className="link" to={"/scroll-indicator"}>Scroll Indicator</Link>
+        </li>
+        <li>
+          <Link className="link" to={"/custom-tabs"}>Custom Tabs</Link>
+        </li>
+        <li>
+          <Link className="link" to={"/custom-model-components"}>Custom Components</Link>
+        </li>
+        <li>
+          <Link className="link" to={"/github-profile-finder"}>Github Profile Finder</Link>
+        </li>
       </ul>
     </div>
   );

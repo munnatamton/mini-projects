@@ -10,6 +10,11 @@ import TreeView from "./Components/Tree-view";
 import { menus } from "./Components/Tree-view/data";
 import QrCodeGenerator from "./Components/Qr-code-generator";
 import LightDarkTheme from "./Components/Theme-change";
+import ScrollIndicator from "./Components/Scroll-indicator";
+import CustomTabs from "./Components/Custom-tabs/tabs";
+import TabTest from "./Components/Custom-tabs/tab-test";
+import ModelTest from "./Components/Custom-model-components/model-test";
+import GithubProfileFinder from "./Components/Github-profile-finder";
 
 function App() {
   return (
@@ -33,7 +38,17 @@ function App() {
           <Route path="/load-more" element={<LoadMore />} />
           <Route path="/tree-view" element={<TreeView menus={menus} />} />
           <Route path="/theme-change" element={<LightDarkTheme />} />
-
+          <Route
+            path="/scroll-indicator"
+            element={
+              <ScrollIndicator
+                url={"https://dummyjson.com/products?limit=100"}
+              />
+            }
+          />
+          <Route path="/custom-tabs" element={<TabTest />} />
+          <Route path="/custom-model-components" element={<ModelTest />} />
+          <Route path="/github-profile-finder" element={<GithubProfileFinder />} />
         </Routes>
       </BrowserRouter>
     </div>
