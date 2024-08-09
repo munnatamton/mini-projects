@@ -35,12 +35,12 @@ const User = ({ user }) => {
           <p>{public_repos}</p>
         </div>
         <div>
-          <p>Followers </p>
+          <p>Followers</p>
           <p>{followers}</p>
         </div>
         <div>
-          <p>following</p>
-          <p> {following}</p>
+          <p>Following</p>
+          <p>{following}</p>
         </div>
       </div>
     </div>
