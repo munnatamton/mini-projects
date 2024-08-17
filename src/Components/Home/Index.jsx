@@ -76,6 +76,11 @@ const Home = () => {
             Tic Tac Toe
           </Link>
         </li>
+        <li>
+          <Link className="link" to={"use-outside-click"}>
+            Close on Click Outside
+          </Link>
+        </li>
       </ul>
     </div>
   );

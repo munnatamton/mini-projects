@@ -17,6 +17,7 @@ import ModelTest from "./Components/Custom-model-components/model-test";
 import GithubProfileFinder from "./Components/Github-profile-finder";
 import SearchAutoComplete from "./Components/Search-autocomplete";
 import TicTacToe from "./Components/Tic-tac-toe";
+import UseOnclickOutsideTest from "./Components/Use-outside-click/test";
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
           />
           <Route path="/search-autocomplete" element={<SearchAutoComplete />} />
           <Route path="/tic-tac-toe" element={<TicTacToe />} />
+          <Route path="/use-outside-click" element={<UseOnclickOutsideTest />} />
+
         </Routes>
       </BrowserRouter>
     </div>
